@@ -1,0 +1,260 @@
+{
+  "book": {
+    "title": "AI基础知识：从神经网络到模型训练",
+    "subtitle": "面向开发者的现代 AI 系统入门",
+    "author": "Hypnosnova",
+    "date": "2026-07-30",
+    "coverImage": "assets/cover.png",
+    "headingNumbering": {
+      "enabled": true
+    },
+    "chapters": [
+      {
+        "dir": "01-introduction",
+        "title": "为什么需要系统理解 AI",
+        "file": "content.md"
+      },
+      {
+        "dir": "02-machine-learning-basics",
+        "title": "机器学习的基本问题",
+        "file": "content.md"
+      },
+      {
+        "dir": "03-neural-network-foundations",
+        "title": "神经网络基础",
+        "file": "content.md"
+      },
+      {
+        "dir": "04-training-and-optimization",
+        "title": "模型训练与优化",
+        "file": "content.md"
+      },
+      {
+        "dir": "05-training-frameworks-and-platforms",
+        "title": "训练框架与工程平台",
+        "file": "content.md"
+      },
+      {
+        "dir": "06-data-and-evaluation",
+        "title": "数据、验证与评估",
+        "file": "content.md"
+      },
+      {
+        "dir": "07-embeddings-and-representation",
+        "title": "Embedding 与表征学习",
+        "file": "content.md"
+      },
+      {
+        "dir": "08-transformer-architecture",
+        "title": "Transformer 架构",
+        "file": "content.md"
+      },
+      {
+        "dir": "09-large-language-models",
+        "title": "大语言模型如何工作",
+        "file": "content.md"
+      },
+      {
+        "dir": "10-reasoning-models-test-time-compute",
+        "title": "推理模型与推理时计算",
+        "file": "content.md"
+      },
+      {
+        "dir": "11-multimodal-models",
+        "title": "多模态模型：当 AI 看见、听见、理解",
+        "file": "content.md"
+      },
+      {
+        "dir": "12-finetuning-alignment",
+        "title": "微调、指令对齐与偏好学习",
+        "file": "content.md"
+      },
+      {
+        "dir": "13-distillation-compression",
+        "title": "蒸馏、量化与模型压缩",
+        "file": "content.md"
+      },
+      {
+        "dir": "14-inference-and-deployment",
+        "title": "推理、部署与工程优化",
+        "file": "content.md"
+      },
+      {
+        "dir": "15-risks-limits-future",
+        "title": "AI 的边界、风险与未来方向",
+        "file": "content.md"
+      },
+      {
+        "dir": "16-agent-context-engineering",
+        "title": "Agent、工具与上下文工程",
+        "file": "content.md"
+      },
+      {
+        "dir": "17-customer-service-agent-engineering",
+        "title": "客服 Agent 工程化实战",
+        "file": "content.md"
+      },
+      {
+        "dir": "17-ai-image-generation",
+        "title": "AI 绘画：从噪声到图像",
+        "file": "content.md"
+      },
+      {
+        "dir": "18-human-capabilities-in-ai-era",
+        "title": "AI 时代，人更需要提升什么能力",
+        "file": "content.md"
+      },
+      {
+        "dir": "19-glossary",
+        "title": "术语表",
+        "file": "content.md"
+      },
+      {
+        "dir": "20-quiz-answers",
+        "title": "理解检查答案",
+        "file": "content.md"
+      }
+    ]
+  },
+  "output": {
+    "pdfName": "AI基础知识：从神经网络到模型训练",
+    "epubModified": "2026-07-30T00:00:00Z"
+  },
+  "plugins": {
+    "math": {
+      "enabled": true
+    },
+    "codeHighlight": {
+      "enabled": true,
+      "theme": "github"
+    }
+  },
+  "style": {
+    "page": {
+      "size": "A4",
+      "margin": "22mm 18mm 24mm 18mm",
+      "pdfMargin": {
+        "top": "22mm",
+        "right": "18mm",
+        "bottom": "24mm",
+        "left": "18mm"
+      }
+    },
+    "body": {
+      "fontFamily": "\"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", \"Source Han Sans SC\", sans-serif",
+      "fontSize": "12pt",
+      "lineHeight": 1.75,
+      "color": "#1f1f1f",
+      "backgroundColor": "#f5f5f7"
+    },
+    "cover": {
+      "titleAlign": "left",
+      "subtitleColor": "#555555"
+    },
+    "h1": {
+      "fontSize": "22pt",
+      "color": "#1f1f1f",
+      "margin": "0 0 1em",
+      "borderBottom": "1px solid #dddddd",
+      "paddingBottom": "0.3em",
+      "pageBreakBefore": "always"
+    },
+    "h2": {
+      "fontSize": "16pt",
+      "color": "#1f1f1f",
+      "marginTop": "1.6em"
+    },
+    "h3": {
+      "fontSize": "13pt",
+      "color": "#1f1f1f",
+      "marginTop": "1.4em"
+    },
+    "h4": {
+      "fontSize": "12pt",
+      "color": "#1f1f1f",
+      "marginTop": "1.2em"
+    },
+    "h5": {
+      "fontSize": "11pt",
+      "color": "#333333",
+      "marginTop": "1em"
+    },
+    "h6": {
+      "fontSize": "10pt",
+      "color": "#555555",
+      "marginTop": "1em"
+    },
+    "paragraph": {
+      "margin": "0 0 0.2em",
+      "textAlign": "justify"
+    },
+    "blockquote": {
+      "borderLeft": "3px solid #999999",
+      "color": "#555555",
+      "backgroundColor": "transparent",
+      "margin": "1em 0",
+      "padding": "0.2em 1em"
+    },
+    "code": {
+      "fontFamily": "\"SF Mono\", Menlo, Consolas, monospace",
+      "fontSize": "10.5pt",
+      "color": "#24292f",
+      "backgroundColor": "#f6f8fa",
+      "padding": "0.1em 0.25em",
+      "borderRadius": "3px"
+    },
+    "codeBlock": {
+      "backgroundColor": "#f5f5f5",
+      "color": "#24292f",
+      "padding": "0.8em 1em",
+      "borderRadius": "4px"
+    },
+    "toc": {
+      "titleAlign": "center",
+      "titleFontSize": "20pt",
+      "itemPadding": "0.34em 0",
+      "linkColor": "#1f1f1f",
+      "dividerColor": "#cccccc"
+    },
+    "link": {
+      "color": "#1f1f1f",
+      "textDecoration": "none"
+    },
+    "table": {
+      "borderColor": "#cccccc",
+      "headerBackgroundColor": "transparent",
+      "cellPadding": "0.4em 0.6em"
+    },
+    "headerFooter": {
+      "fontSize": "9pt",
+      "color": "#888888"
+    },
+    "header": {
+      "enabled": true,
+      "fontSize": "9pt",
+      "color": "#888888",
+      "padding": "0 18mm",
+      "left": {
+        "source": "chapter"
+      },
+      "center": {
+        "source": "none"
+      },
+      "right": {
+        "source": "book"
+      }
+    },
+    "pageNumber": {
+      "enabled": true,
+      "format": "{page} / {total}",
+      "fontSize": "9pt",
+      "color": "#888888",
+      "padding": "0 18mm",
+      "textAlign": "center"
+    },
+    "hr": {
+      "borderColor": "#cccccc",
+      "margin": "1.5em 0"
+    }
+  }
+}
